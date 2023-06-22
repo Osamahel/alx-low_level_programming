@@ -1,4 +1,4 @@
-#incluse "main.h"
+#include "main.h"
 
 /**
  * jack_bauer - print evry minute of the day
