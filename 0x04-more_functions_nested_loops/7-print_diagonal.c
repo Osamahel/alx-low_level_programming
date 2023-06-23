@@ -3,13 +3,12 @@
 /**
  * print_diagonal - print diagonal line
  *
- * @n: is the number of times the \ character
- * shoud be print
+ * @n: is the number of times the \ printed
 */
 
 void print_diagonal(int n)
 {
-	int postn, space;
+	int p, space;
 
 	if (n <= 0)
 	{
@@ -17,7 +16,7 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		for (postn = 0; postn < n; postn++)
+		for (p = 0; p < n; p++)
 		{
 			for (space = 0; space < p; space++)
 			{
